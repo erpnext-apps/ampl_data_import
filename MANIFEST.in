@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include ampl_data_import *.css
+recursive-include ampl_data_import *.csv
+recursive-include ampl_data_import *.html
+recursive-include ampl_data_import *.ico
+recursive-include ampl_data_import *.js
+recursive-include ampl_data_import *.json
+recursive-include ampl_data_import *.md
+recursive-include ampl_data_import *.png
+recursive-include ampl_data_import *.py
+recursive-include ampl_data_import *.svg
+recursive-include ampl_data_import *.txt
+recursive-exclude ampl_data_import *.pyc
