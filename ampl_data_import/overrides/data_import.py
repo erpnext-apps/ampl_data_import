@@ -7,7 +7,7 @@ import os
 import frappe
 from frappe import _
 from frappe.core.doctype.data_import.exporter import Exporter
-from dms_importer.overrides.importer import Importer
+from ampl_data_import.overrides.importer import Importer
 from frappe.model.document import Document
 from frappe.modules.import_file import import_file_by_path
 from frappe.utils.background_jobs import enqueue
